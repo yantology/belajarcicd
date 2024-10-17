@@ -1,0 +1,15 @@
+name: buildfile.yml
+on:
+    push:
+        branches: [ main ]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Create a file
+            run: echo "This is a simple text file." > simple_text.txt
+          - name: Upload artifact
+            uses: actions/upload-artifact@v3
+            with:
+              name: my-artifact
+              path: simple_text.txt
