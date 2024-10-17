@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdec726d-5154-4212-b2d0-1d0b5e7c3728" name="Changes" comment="add workflows">
+    <list default="true" id="fdec726d-5154-4212-b2d0-1d0b5e7c3728" name="Changes" comment="add workflows buildfile.yml">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/buildfile.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +101,7 @@
       <updated>1729136861437</updated>
       <workItem from="1729136862897" duration="829000" />
       <workItem from="1729137775403" duration="186000" />
+      <workItem from="1729157036039" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -124,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729137631012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add workflows buildfile.yml">
+      <option name="closed" value="true" />
+      <created>1729157205577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729157205577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add workflows" />
-    <option name="LAST_COMMIT_MESSAGE" value="add workflows" />
+    <MESSAGE value="add workflows buildfile.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add workflows buildfile.yml" />
   </component>
 </project>
