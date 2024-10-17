@@ -1,0 +1,14 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, world!"
+      - name: Print Current Date
+        run: echo "The current date is $(date)"
